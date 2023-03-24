@@ -812,6 +812,9 @@ $(document).ready(function(){
 
     /* End Show Img Section */
 
+    // to add copyright year
+    $("#copyright-year").text(new Date().getUTCFullYear());
+
     // to add display: none; for loading
     $(".my-loading").addClass("d-none");
 });
